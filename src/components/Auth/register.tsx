@@ -26,7 +26,7 @@ navigate("/auth/login")
       </div>
       <div className="">
         <label htmlFor="">Почта:</label>
-<span>Test1</span>
+<span>Test5</span>
         <UiInput
           currentErr={currentErr?.email?currentErr?.email:null}
           name="email"
