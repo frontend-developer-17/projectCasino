@@ -37,9 +37,7 @@ navigate("/auth/register")
           type="password"
         />
       </div>
-     <span> updateeee</span>
-     <input>  Обновлено?</input>
-     <input>  Обновлено?</input>
+    
      
       <span style={{ marginLeft: "10px" }}>
         Не можете войти?
