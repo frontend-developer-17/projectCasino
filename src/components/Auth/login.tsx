@@ -5,7 +5,7 @@ import { useNavigate, useOutletContext } from "react-router";
 
 function Login() {
   const navigate = useNavigate();
-  const { formData, handleChange, currentErr,clearField } = useOutletContext();
+  const { formData, handleChange, currentErr,clearField } = useOutletContext<TOutletContext>();
  
   console.log("login");
   debugger
