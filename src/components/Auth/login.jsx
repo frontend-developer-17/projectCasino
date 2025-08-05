@@ -1,3 +1,4 @@
+import { TOutletContext } from "../../types/Auth/submitForm";
 import UiButton from "../../ui/ui-button";
 import UiInput from "../../ui/UiInput";
 import { useNavigate, useOutletContext } from "react-router";
@@ -36,6 +37,10 @@ navigate("/auth/register")
           type="password"
         />
       </div>
+     <span> updateeee</span>
+     <input>  Обновлено?</input>
+     <input>  Обновлено?</input>
+     
       <span style={{ marginLeft: "10px" }}>
         Не можете войти?
         <UiButton type='button' onClick={pageСhange}>

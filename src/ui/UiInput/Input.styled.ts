@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 type Props = {
-currentErr?:string
+currentErr?:string|null
 }
 const InputWrapper = styled.div.withConfig({
   shouldForwardProp: (prop) => !['currentErr'].includes(prop as string),

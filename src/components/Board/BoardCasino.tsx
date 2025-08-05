@@ -43,8 +43,7 @@ function BoardList() {
         </S.Row>
       ))}
       <S.WrapperButton>
-        <UiButton onClick={generateSimvols} width={"300"}>
-          Играть!
+        <UiButton onClick={generateSimvols} width={"300"}>          Играть!!
         </UiButton>
       </S.WrapperButton>
     </S.BoardList>

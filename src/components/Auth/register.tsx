@@ -1,3 +1,4 @@
+import { TOutletContext } from "../../types/Auth/submitForm";
 import UiButton from "../../ui/ui-button";
 import UiInput from "../../ui/UiInput";
 import { useNavigate, useOutletContext } from "react-router";
@@ -5,7 +6,7 @@ function Register() {
   const navigate = useNavigate();
   console.log("register");
   
-  const { formData, handleChange, currentErr,clearField } = useOutletContext();
+  const { formData, handleChange, currentErr,clearField } = useOutletContext<TOutletContext>();
   const pageСhange =()=>{
     clearField()
 navigate("/auth/login")
@@ -25,7 +26,10 @@ navigate("/auth/login")
       </div>
       <div className="">
         <label htmlFor="">Почта:</label>
-
+<input>Ffffffff</input>
+<input>ASAH</input>
+<input>Ffffffff</input>
+<input>Ffffкпкпffff</input>
         <UiInput
           currentErr={currentErr?.email?currentErr?.email:null}
           name="email"
